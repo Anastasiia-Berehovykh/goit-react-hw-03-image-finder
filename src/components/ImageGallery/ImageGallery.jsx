@@ -1,5 +1,5 @@
 import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import css from './ImageGallery.module.css';
 
@@ -19,13 +19,13 @@ export const ImageGallery = ({ images, openModal }) => {
   );
 }
 
-ImageGallery.prototype = {
-  images: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      description: PropTypes.string.isRequired,
-      smallImage: PropTypes.string.isRequired,
-      largeImage: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-};
+// ImageGallery.prototype = {
+//   images: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       id: PropTypes.number.isRequired,
+//       description: PropTypes.string.isRequired,
+//       smallImage: PropTypes.string.isRequired,
+//       largeImage: PropTypes.string.isRequired,
+//     })
+//   ).isRequired,
+// };

@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import css from './ImageGalleryItem.module.css';
 
 export const  ImageGalleryItem = ({ description, smallImage, largeImage, openModal }) => {
@@ -9,9 +9,9 @@ export const  ImageGalleryItem = ({ description, smallImage, largeImage, openMod
   );
 }
 
-ImageGalleryItem.prototype = {
-  description: PropTypes.string.isRequired,
-  smallImage: PropTypes.string.isRequired,
-  largeImage: PropTypes.string.isRequired,
-  openModal: PropTypes.func.isRequired,
-};
+// ImageGalleryItem.prototype = {
+//   description: PropTypes.string.isRequired,
+//   smallImage: PropTypes.string.isRequired,
+//   largeImage: PropTypes.string.isRequired,
+//   openModal: PropTypes.func.isRequired,
+// };

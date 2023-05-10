@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+ import PropTypes from 'prop-types';
 import { BiPlusMedical } from 'react-icons/bi';
 import css from './Button.module.css';
 
@@ -10,6 +10,6 @@ export const Button =({ onNextFetch }) => {
   );
 }
 
-Button.prototype = {
-  onNextFetch: PropTypes.func.isRequired,
-};
+ Button.prototype = {
+   onNextFetch: PropTypes.func.isRequired,
+ };
